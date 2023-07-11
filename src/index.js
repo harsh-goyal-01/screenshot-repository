@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+console.log(`You are running this application in ${process.env.NODE_ENV} mode!!`);
+console.log(`${process.env.REACT_APP_SECRET_KEY}`);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
